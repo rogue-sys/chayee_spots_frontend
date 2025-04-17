@@ -3,6 +3,7 @@ import { getAllPlaces } from '../../api/placeAPI';
 import PlaceCard from '../../components/place-card/PlaceCard';
 import { Link } from 'react-router-dom';
 
+
 const HomePage = () => {
   const [places, setPlaces] = useState([]);
   const [loading, setLoading] = useState(true);
